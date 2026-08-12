@@ -58,5 +58,6 @@ print(result)
 print(y_test.iloc[10])
 
 # Import models for further use
+pkl.dump(encoder,open(r"Models\Encoder.pkl","wb"))
 pkl.dump(scaler,open(r"Models\Scaler.pkl","wb"))
 pkl.dump(lr_model,open(r"Models\Model.pkl","wb"))
