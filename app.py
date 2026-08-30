@@ -3,9 +3,9 @@ import numpy as np
 import streamlit as st
 
 # Load Models 
-scaler = pkl.load(open(r"Models\Scaler.pkl","rb"))
-model = pkl.load(open(r"Models\Model.pkl","rb"))
-encoder = pkl.load(open(r"Models\Encoder.pkl","rb"))
+scaler = pkl.load(open(r"Models/Scaler.pkl","rb"))
+model = pkl.load(open(r"Models/Model.pkl","rb"))
+encoder = pkl.load(open(r"Models/Encoder.pkl","rb"))
 
 
 
